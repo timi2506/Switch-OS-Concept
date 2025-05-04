@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8D1BF6B52DC7A08B00444ECF /* BatteryView in Frameworks */ = {isa = PBXBuildFile; productRef = 8D1BF6B42DC7A08B00444ECF /* BatteryView */; };
+		8D450E5D2DC52DD40026952D /* GameControllerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8D450E5C2DC52DD40026952D /* GameControllerKit */; };
+		8D9D1C342DC4FE9A001EF281 /* CodableAppStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8D9D1C332DC4FE9A001EF281 /* CodableAppStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8DC776E32DC348DE00EB2427 /*  SwitchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " SwitchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9D1C342DC4FE9A001EF281 /* CodableAppStorage in Frameworks */,
+				8D1BF6B52DC7A08B00444ECF /* BatteryView in Frameworks */,
+				8D450E5D2DC52DD40026952D /* GameControllerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +74,9 @@
 			);
 			name = " SwitchOS";
 			packageProductDependencies = (
+				8D9D1C332DC4FE9A001EF281 /* CodableAppStorage */,
+				8D450E5C2DC52DD40026952D /* GameControllerKit */,
+				8D1BF6B42DC7A08B00444ECF /* BatteryView */,
 			);
 			productName = " SwitchOS";
 			productReference = 8DC776E32DC348DE00EB2427 /*  SwitchOS.app */;
@@ -94,6 +106,11 @@
 			);
 			mainGroup = 8DC776DA2DC348DE00EB2427;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8D9D1C322DC4FE9A001EF281 /* XCRemoteSwiftPackageReference "CodableAppStorage" */,
+				8D450E5B2DC52DD40026952D /* XCRemoteSwiftPackageReference "GameControllerKit" */,
+				8D1BF6B32DC7A08B00444ECF /* XCRemoteSwiftPackageReference "BatteryView" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8DC776E42DC348DE00EB2427 /* Products */;
 			projectDirPath = "";
@@ -255,18 +272,23 @@
 				DEVELOPMENT_TEAM = HY2UAX52Z7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "--SwitchOS-Info.plist";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.timi2506.--SwitchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timi2506.SwitchOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -284,18 +306,23 @@
 				DEVELOPMENT_TEAM = HY2UAX52Z7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "--SwitchOS-Info.plist";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.timi2506.--SwitchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timi2506.SwitchOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,6 +351,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D1BF6B32DC7A08B00444ECF /* XCRemoteSwiftPackageReference "BatteryView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/theMomax/BatteryView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		8D450E5B2DC52DD40026952D /* XCRemoteSwiftPackageReference "GameControllerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xWDG/GameControllerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+		8D9D1C322DC4FE9A001EF281 /* XCRemoteSwiftPackageReference "CodableAppStorage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/timi2506/CodableAppStorage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D1BF6B42DC7A08B00444ECF /* BatteryView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D1BF6B32DC7A08B00444ECF /* XCRemoteSwiftPackageReference "BatteryView" */;
+			productName = BatteryView;
+		};
+		8D450E5C2DC52DD40026952D /* GameControllerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D450E5B2DC52DD40026952D /* XCRemoteSwiftPackageReference "GameControllerKit" */;
+			productName = GameControllerKit;
+		};
+		8D9D1C332DC4FE9A001EF281 /* CodableAppStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D9D1C322DC4FE9A001EF281 /* XCRemoteSwiftPackageReference "CodableAppStorage" */;
+			productName = CodableAppStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8DC776DB2DC348DE00EB2427 /* Project object */;
 }

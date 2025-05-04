@@ -1,0 +1,33 @@
+{
+  "originHash" : "9076eccb85807d6b60ce18f59ea3a85f550633d4ee34bcce4aeedfc8cc223d51",
+  "pins" : [
+    {
+      "identity" : "batteryview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/theMomax/BatteryView.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a800142347e2fc5e344a547fb29b6d46c3dddcf1"
+      }
+    },
+    {
+      "identity" : "codableappstorage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/timi2506/CodableAppStorage",
+      "state" : {
+        "revision" : "3586759db31f19cab8dd35ee1a36abcc07ec31bd",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "gamecontrollerkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/0xWDG/GameControllerKit.git",
+      "state" : {
+        "revision" : "d37d3277551072145d028c105f3a17d0b1b2153e",
+        "version" : "0.0.5"
+      }
+    }
+  ],
+  "version" : 3
+}

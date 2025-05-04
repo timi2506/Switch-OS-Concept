@@ -1,8 +1,8 @@
 //
-//  __SwitchOSApp.swift
+//  SwitchOSApp.swift
 //   SwitchOS
 //
-//  Created by Tim Schuchardt on 01.05.25.
+//  Created by Tim on 01.05.25.
 //
 
 import SwiftUI
