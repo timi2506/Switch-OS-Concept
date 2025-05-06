@@ -141,6 +141,8 @@ struct ContentView: View {
                             }
                             .movable()
                     }
+                    // Stop Keyboard ESC key from closing App
+                    .interactiveDismissDisabled()
                 }
                 .onChange(of: SwitchStorage.shared.selectedProfile) { _ in
                     switchingProfile = true
